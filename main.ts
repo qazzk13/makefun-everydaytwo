@@ -6,8 +6,8 @@ import { join } from "node:path";
 // Line 1 explains a queue with one analogy, line 2 says what
 // the analogy maps and what it leaves out. Total 1-400 chars.
 const TEXT =
-  "A queue is a human train that lost its engine, so everybody shuffles forward a bit each time the person at the front hops off at the till.\n" +
-  "It fits because your spot in the train is your spot in line, but it leaves out that real queues are not joined together, and anyone can walk off.";
+  "A queue is a train made of people with no engine, so the whole line shuffles forward one step each time the person at the front gets served and steps away.\n" +
+  "That maps your place in the train onto your turn at the till, but it leaves out that nobody is joined up, and any carriage can just wander off home.";
 
 const chars = [...TEXT].length;
 if (chars < 1 || chars > 400) throw new Error(`text is ${chars} chars, must be 1-400`);

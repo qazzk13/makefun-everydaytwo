@@ -6,8 +6,8 @@
 
 Two lines trying to explain a queue to a kid, the way I would if we were stuck in one at the bakery and they asked why nobody just walks to the front. First line turns the queue into a train made of people. Second line owns up to where that picture breaks down. The program just writes those two lines to the output file, same every run.
 
-> A queue is a human train that lost its engine, so everybody shuffles forward a bit each time the person at the front hops off at the till.
-> It fits because your spot in the train is your spot in line, but it leaves out that real queues are not joined together, and anyone can walk off.
+> A queue is a train made of people with no engine, so the whole line shuffles forward one step each time the person at the front gets served and steps away.
+> That maps your place in the train onto your turn at the till, but it leaves out that nobody is joined up, and any carriage can just wander off home.
 
 ## Run it
 
